@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Meta--> 
+
+    <meta name="author" content="Greis Capoku">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Ecco alcuni dei miei lavori di grafica, analisi e web design. Vuoi far parte anche tu del mio portfolio? Ti Aspetto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+  <title>Website di Greis</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico">
+
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() { 
+        $('#burger').click(function(e) { 
+        e.preventDefault();
+        $('.nav').stop().slideToggle();
+        $(this).find('i.fa').toggleClass('fa-bars').addClass('fa xmark');
+     });
+    });
+  </script>
+
+<script src="https://kit.fontawesome.com/1145d550af.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div align="center">
+
+<header>
+  <div class="topnav"> 
+    <div class="row">
+      <div class="container">
+        <div id="logo" class="logo">
+          <a href="index.html"><img class='flex' src="./images/Logo2.png" alt="logo"></a>
+        </div>
+
+  <a id="burger" href="#"><i class="fa-solid fa-bars"></i></i></a>
+    <nav>
+        <ul class="nav">
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#About'>About</a></li>
+            <li><a href='#Portfolio'>Portfolio</a></li>
+            <li><a href='#Contatto'>Contattami</a></li>
+            <li><a href='#Social'>Social</a></li>
+        </ul>
+    </nav>
+
+</header>
+  
+
+<a name="Home"></a>
+<div id="header" class="Home">
+  <div class="container">
+    <div class="header-content">
+      <h1>Sono Greis Capoku,</h1>
+        <div id="me-image" class="about-img">
+        <p><img class="flex" src="./images/Profilo.JPEG" class="responsive" alt="me"></p>
+      </div>
+    </div>
+
+      <p>E-commerce Manager, Web Designer &amp; Cat Lover</p>
+      <br>
+      <ul id="social" class="list-unstyled list-social">
+        <li><a href="https://www.facebook.com/greis.journey/"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+        <li><a href="https://www.instagram.com/greis.journey/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/greis-capoku-a32788251/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCJubUAsErGzp1GFBIt4gO1g"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://www.pinterest.it/MordiEFuggi_/"><i class="fa-brands fa-pinterest-p"></i></a></li>
+      </ul>
+    </div>
+  </div>
+ 
+
+
+  <!-- About -->
+
+  <a name="About"></a>
+  
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+    <h1>ABOUT ME</h1>
+
+          <div class="about-descr">
+            <p class="p-heading">Come detto poco fa, io mi chiamo Greis. <br>
+              Sono nata a Lucca in Toscana, ma circa un anno fa ho deciso di trasferirmi a Monza con il mio compagno. <br>
+              Nello stesso periodo ho deciso di aprire P.Iva e lavorare come freelancer: Social Media Manager e Content Creator. Sono sempre stata una ragazza curiosa, e allo stesso momento affascinata dal mondo dell'online, e più in generale del digital marketing, quindi colta dalla voglia di imparare cose nuove, ho iniziato un percorso formativo su <a href="https://www.start2impact.it/">Start2Impact</a> come E-Commerce Manager. <br> 
+              Al momento non ho ancora molte esperienze lavorative, ma spero, una volta portato a termi questo percorso, di poter collezionarne molte. Nel mio Portfolio sono presenti alcuni progetti che ho svolto per Start2Impact, e per iniziare a mettere in pratica tutto ciò che sto imparando.
+            <br>
+            <p class="separator">Diciamo che questa è la storia più che altro di ciò che ho fatto e che vorrei fare, non esattamente chi sono. Per descrivere chi sono veramente potrei partire con il dire che sono una ragazza molto semplice, che ama la buona compagnia, i viaggi alla scoperta di nuove culture, gli animali (in particolare i gatti, e mentirei se ti dicessi che adesso NON ho un gatto sdraiato sulle mie gambe mentre scrivo) e la natura. </p>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Portfolio -->
+  
+  <a name="Portfolio"></a>
+  <div id="portfolio" class="container">
+    <h1>  PORTFOLIO</h1>
+    <div class="split3">
+      <div>
+        <h2>Web Design</h2>
+        <br>
+        <i class="fa-solid fa-code">  Coding</i>
+        <br>
+        <p><img class="flex" src="./images/html-css.png" class="responsive" alt="progetto-shopify"></p>
+        <p>Per questo progetto mi sono occupata della creazione da zero di questo sito, grazie alle skill apprese su start2Impact nel capitolo HTML - CSS.
+          <br> E' stato molto interessante, mi ha dato modo di dare sfogo alla mia creatività.</p>
+        
+    </div>
+    <div>
+        <h2>E-commerce Manager</h2>
+        <br>
+        <i class="fa-brands fa-shopify">  Shop Online</i>
+        <br>
+        <p><img class="flex" src="./images/shopify.png" class="responsive" alt="progetto-shopify"></p>
+        <p>Per questo progetto mi sono occupata della creazione di un shop online di nome LOOKBOOK, anche questo progetto l'ho realizzato per mettere in pratoca ciò che ho appreso grazie a Start2Impact. </p>
+
+    </div>
+    <div>
+        <h2>Discovery</h2>
+        <br>
+        <i class="fa-solid fa-magnifying-glass">  Ricerca Utente</i>
+        <br>
+        <p><img class="flex" src="./images/ecodream.png" class="responsive" alt="progetto-shopify"></p>
+        <p>Per questo progetto mi sono occupata della ricerca utente, lo studio dei competitor e un'analisi approfondita dei dati per l'azienda di borse ecosostenibili <a href="https://ecodreamdesign.it/">EcoDream</a> . L'obbiettivo era quello di simulare un lavoro di discovery da parte di un designer (fase fondamentale se si decide di cambiare qualcosa nella propria azienda a livello di interfaccia o esperienza utente).</p>
+    <br><br>
+    </div>
+    </div>
+    <div class="clearer"> </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<!-- Contatto -->
+
+<a name="#Contatto"></a>
+ 
+  <div id="contatto" class="container">
+        <div class="row">
+          <h1>CONTATTAMI</h1>
+            <div class="contact-contact">
+              
+                <ul class="contact-details">
+                  <li><span>Via Principale, 41</span></li>
+                  <li><span>Monza, Italia</span></li>
+                  <li><a href= "tel:+393899491715">Chiama +39 3899491715</a></li>
+                  <li><a href= "mailto:greis.capoku@outlook.it">Send Email: greis_capoku@outlook.it</a></li>
+                </ul>
+                <br>
+                <p>Se ti va di metterti in contatto con me puoi farlo utilizzando i miei dati, oppure compilando il form dedicato. Verrai ricontattato entro 24H. </p>
+            </div>
+          </div> 
+  
+  <div class="container">
+    <form action="action_page.php">
+              
+      <label for="fname">Nome</label>
+      <input type="text" id="fname" name="firstname" placeholder="Il tuo Nome..">
+              
+      <label for="lname">Cognome</label>
+      <input type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
+              
+      <label for="country">Città</label>
+      <input type="text" id="country" name="country" placeholder="La tua città..">
+      </select>
+              
+      <label for="subject">Oggetto</label>
+      <textarea id="subject" name="subject" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
+              
+      <input type="submit" value="Invia!">
+              
+    </form>
+  </div>
+</div>
+
+
+<!-- Footer -->
+
+<footer>
+  <a name="Social"></a>
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul id="social" class="list-unstyled list-social">
+        <li><a href="https://www.facebook.com/greis.journey/"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+        <li><a href="https://www.instagram.com/greis.journey/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/greis-capoku-a32788251/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCJubUAsErGzp1GFBIt4gO1g"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://www.pinterest.it/MordiEFuggi_/"><i class="fa-brands fa-pinterest-p"></i></a></li>
+      </ul>
+
+      </div>
+
+      <p>© Copyrights Greis Capoku. All rights reserved.</p>
+
+      <div class="credits">
+        Designed by <a href="#about">Greis Capoku</a>
+      </div>
+
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
