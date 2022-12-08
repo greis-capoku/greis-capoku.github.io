@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <!--Meta--> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Greis Capoku">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Se cerchi un'e-commerce manager a Monza, io posso aiutarti. Creo siti web responsive per professionisti digitali, e mi occupo anche della creazione di interi shop online. Contattami tramite il form dedicato per avere maggiori informazioni.">
+    <meta name="og:title" property="og:title" content="E-commerce Manager freelance Monza">
+    <meta property="og:type" content="website">
+
+
+    <title>E-commerce Manager Freelance a Monza - Contatti</title>
+
+  <!--Reset CSS-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico">
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <!-- Slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- FontAwesome Icons -->
+  <script src="https://kit.fontawesome.com/1145d550af.js" crossorigin="anonymous"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $(".hamburger").on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+    $('.sub__menu').on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+  });
+</script>
+
+</head>
+
+<body>
+  
+  <!-- Menu, Hamburger menu e SmallHero -->
+
+  <div class="header">
+     <div class="logo">
+      <a href="index.html"><img src="./images/logo.png" alt="Logo">
+     </div>
+    <ul class="menu">
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='index.html#About'>About</a></li>
+            <li><a href='index.html#Portfolio'>Portfolio</a></li>
+            <li><a href='Contact.html'>Contattami</a></li>
+    </ul>
+
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero hero--small">
+    <div class="hero__content">
+      <p class="small-text">Contattami adesso per scoprire,</p>
+      <h1 class="big-text">COME MIGLIORARE LA TUA PRESENZA ONLINE</h1>
+    </div>
+  </div>
+
+   <!-- Content -->
+
+<div class="content">
+  <h3 class="normal-text mt-1">MIGLIORA IL TUO BUSINESS DA ADESSO</h3>
+  <p class="tbo">Raccontami il tuo progetto e le tue idee, ti aiuterò a farle diventare realtà! </p>
+  <p class="small-text tbo tb">Non esitare, contattami subito</p>
+  <p>Se hai domande su i miei progetti, o sei interessato ad una collaborazione puoi tranquillamente metterti in contatto con me compilando il form che troverai qua sotto.(Verrai ricontattato entro 24H.)</p> 
+</div>
+
+   <!-- Form Contatti -->
+
+<section>
+  <div class="container1">
+    <form action="https://formspree.io/f/moqbglrg" method="POST" id="my-form">
+
+      <h4 class="mid-text tc ">INSERISCI I TUOI DATI</h4>
+      <div class="form-group">
+        <label for="firstName">Nome</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Inserisci il tuo nome.." class="fp">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Cognome</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Inserisci il tuo cognome.." class="fp">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="Esempio@dominio.it" class="fp" required>
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Messaggio</label>
+        <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Inserisci qui il tuo messaggio.." class="fp"></textarea>
+      </div>
+
+      <button type="submit">Invia!</button>
+    </form>
+  </div>
+  <div id="status"></div>
+
+</section>
+<script src="./main.js"></script>
+
+<div class="content">
+<br><p class="small-text tc">Ps: Se per caso credi che il form non stia funzionando, puoi contattarmi tramite i miei Social Media (che trovi in fondo alla pagina), oppure tramite il mio contatto:</p>
+  <br>
+          <div class="contact">
+            <ul class="contact-details">
+              <li><span>Monza, Italia</span></li>
+              <li><a href= "tel:+393899491715" class="small-text tbo tb">Chiama +39 3899491715</a></li>
+              <li><a href= "mailto:greis.capoku@outlook.it" class="small-text tb tbo">Scrivi a: greis_capoku@outlook.it</a></li>
+            </ul>
+          </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="row1">
+      
+      <div class="footer-col">
+        <h4 class="mid-text mt-1 tg">Contatti <i class="fa-solid fa-phone mid-text"></i></h4>
+          <ul class="tw">
+            <li><span>Via Principale, 41</span></li>
+            <li><span>Monza, Italia</span></li>
+            <li><a href= "tel:+393899491715" class="small-text tw">+39 3899491715</a></li>
+            <li><a href= "mailto:greis.capoku@outlook.it" class="small-text tw">greis_capoku@outlook.it</a></li>
+          </ul>      
+      </div>
+
+      <div class="footer-col">
+        <h4 class="mid-text mt-1 tg">Seguimi <i class="fa-solid fa-user mid-text"></i></h4>
+        <ul id="social" class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/greis.journey/" target="_blank"><i class="fa-brands fa-facebook-f tw normal-text"></i></i></a></li>
+          <li><a href="https://www.instagram.com/greis.journey/" target="_blank"><i class="fa-brands fa-instagram tw normal-text"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/greis-capoku-a32788251/" target="_blank"><i class="fa-brands fa-linkedin-in tw normal-text"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCJubUAsErGzp1GFBIt4gO1g" target="_blank" class="fa-brands fa-youtube tw normal-text"></i></a></li>
+          <li><a href="https://www.pinterest.it/MordiEFuggi_/" target="_blank"><i class="fa-brands fa-pinterest-p tw normal-text"></i></a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="credits tc">
+      <p>© Copyrights Greis Capoku. All rights reserved.</p>
+      Designed by <a href="index.html#About" class="tw">Greis Capoku.</a>
+    </div>
+    
+  </div>
+  
+  </footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
